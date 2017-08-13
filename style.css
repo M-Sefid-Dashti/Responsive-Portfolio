@@ -17,23 +17,28 @@ footer {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background: #ebebeb;
+  background: yellow;
+  //background: #ebebeb;
 }
 
 section {
   display: block;
   float: left;
   width: 495px;
-  height: 267px;
-  overflow: hidden;
+  //height: 267px;
+  height: 100%;
+  //overflow: hidden;
+  background: blue;
 }
 
 aside {
   display: block;
   float: right;
   width: 40%;
-  height: 267px;
-  overflow: hidden;
+  //height: 267px;
+  height: 100%;
+  //overflow: hidden;
+  background: blue;  
 }
 
 article {
@@ -54,4 +59,12 @@ p {
   color: #777;
   text-align: center;
   background: #ebebeb;
+}
+ol, ul
+{
+    text-align: left;
+}
+#leftalign
+{
+    text-align: left;
 }
