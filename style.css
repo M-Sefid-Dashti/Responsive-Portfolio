@@ -1,3 +1,8 @@
+*
+{
+    box-sizing: border-box;
+}
+
 body {
   width: 960px;
   margin: auto;
@@ -17,8 +22,8 @@ footer {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  background: yellow;
-  //background: #ebebeb;
+  //background: red;
+  background: #ebebeb;
 }
 
 section {
@@ -38,7 +43,7 @@ aside {
   //height: 267px;
   height: 100%;
   //overflow: hidden;
-  background: blue;  
+  background: blue;
 }
 
 article {
@@ -64,7 +69,33 @@ ol, ul
 {
     text-align: left;
 }
-#leftalign
+leftalign
 {
     text-align: left;
+}
+#link1
+{
+    color: red;
+}
+@media screen and (max-width: 768px)
+{
+
+}
+@media screen and (max-width: 480px)
+{
+    nav, aside, section, header {
+        width: 100%;
+        clear: both ;
+        display: block;
+    }
+    nav
+    {
+        display: block;
+        margin-bottom: .5em;
+    }
+    aside
+    {
+      float: left;
+      clear: both ;
+    }
 }
